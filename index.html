@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- https://m-g-rosin.github.io/TechDegree-Project-9/ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
@@ -18,7 +19,16 @@
         <br> Morgan Rosin
     </h1>
   </header>
-    <div class="grid">
+    <div class="overlay">
+      <button type="button" class="show">Show Projects</button>
+    </div>
+
+    <div class="overlay">
+      <button type="button" class="hide hidden">Hide Projects</button>
+    </div>
+
+
+    <div class="grid hidden">
       <div class="container d-flex">
           <div class="row">
             <div class="col">
@@ -90,5 +100,6 @@
           1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
         </svg>
       </footer>
+      <script src="app.js"></script>
 </body>
 </html>
